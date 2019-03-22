@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "http://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="http://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="800" height="600"  background-color="black" />
+<region id="Videos" left="0" top="0" width="800" height="600" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="mStudio-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="mStudio-1.mp4" qt:chapter="Agenda"  region="Videos" />
+        <video src="mStudio-2.mp4" qt:chapter="Modeling - Current Status"  region="Videos" />
+        <video src="mStudio-3.mp4" qt:chapter="Persona's around UCMDB and Modeling"  region="Videos" />
+        <video src="mStudio-4.mp4" qt:chapter="Modeling Studio Vs Current Status"  region="Videos" />
+        <video src="mStudio-5.mp4" qt:chapter="Modeling Studio Goals"  region="Videos" />
+        <video src="mStudio-6.mp4" qt:chapter="Modeling and Views Creation"  region="Videos" />
+        <video src="mStudio-7.mp4" qt:chapter="Modeling Studio Concepts"  region="Videos" />
+        <video src="mStudio-8.mp4" qt:chapter="Model Creation"  region="Videos" />
+        <video src="mStudio-9.mp4" qt:chapter="Create a New Model - How?"  region="Videos" />
+        <video src="mStudio-10.mp4" qt:chapter="Search CIs and Browse..."  region="Videos" />
+        <video src="mStudio-11.mp4" qt:chapter="Independent entity"  region="Videos" />
+        <video src="mStudio-12.mp4" qt:chapter="What is a View?"  region="Videos" />
+        <video src="mStudio-13.mp4" qt:chapter="Manually Drag CIs..."  region="Videos" />
+        <video src="mStudio-14.mp4" qt:chapter="The CIs in the collection..."  region="Videos" />
+        <video src="mStudio-15.mp4" qt:chapter="Display Views"  region="Videos" />
+        <video src="mStudio-16.mp4" qt:chapter="Use Case"  region="Videos" />
+        <video src="mStudio-17.mp4" qt:chapter="What is a Perspective?"  region="Videos" />
+        <video src="mStudio-18.mp4" qt:chapter="Simple Perspective"  region="Videos" />
+        <video src="mStudio-19.mp4" qt:chapter="All Monitors Perspective"  region="Videos" />
+        <video src="mStudio-20.mp4" qt:chapter="Network Perspective"  region="Videos" />
+        <video src="mStudio-21.mp4" qt:chapter="View Creation Flow"  region="Videos" />
+        <video src="mStudio-22.mp4" qt:chapter="Create New Perspective"  region="Videos" />
+        <video src="mStudio-23.mp4" qt:chapter="Perspective Wizard"  region="Videos" />
+        <video src="mStudio-24.mp4" qt:chapter="Select the Contact Node and define the perspective nodes"  region="Videos" />
+        <video src="mStudio-25.mp4" qt:chapter="Apply New Perspective"  region="Videos" />
+        <video src="mStudio-26.mp4" qt:chapter="Reveal & Watch"  region="Videos" />
+        <video src="mStudio-27.mp4" qt:chapter="Reveal"  region="Videos" />
+        <video src="mStudio-28.mp4" qt:chapter="Save Reveal Path"  region="Videos" />
+        <video src="mStudio-29.mp4" qt:chapter="Open Reveal Path\"  region="Videos" />
+        <video src="mStudio-30.mp4" qt:chapter="Watch"  region="Videos" />
+        <video src="mStudio-31.mp4" qt:chapter="Tuning Your View - Hide Option"  region="Videos" />
+        <video src="mStudio-32.mp4" qt:chapter="The value of Modeling Studio"  region="Videos" />
+     </seq>
+  </body>
+</smil>

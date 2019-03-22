@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+   <config>
+      <hasPipVideo type="Boolean">0</hasPipVideo>
+      <hasPipOverlay type="Boolean">0</hasPipOverlay>
+      <hasToc type="Boolean">1</hasToc>
+      <hasAudio type="Boolean">1</hasAudio>
+      <mainVidIsFlv type="Boolean">1</mainVidIsFlv>
+      <skinTheme>classic</skinTheme>
+      <autoStart type="Boolean">1</autoStart>
+      <backgroundColor>FFFFFF</backgroundColor>
+      <showLoadingMov type="Boolean">1</showLoadingMov>      
+      <loadingMovPercentToLoad type="Number">10</loadingMovPercentToLoad>
+      <loadingMovMinDuration type="Number">3</loadingMovMinDuration>
+      <controllerColor type="Number"></controllerColor>
+      <showAbout type="Boolean">1</showAbout>
+      <aboutBoxText></aboutBoxText>
+      <timeDisplayFormat>MM:SS</timeDisplayFormat>
+      <showDuration type="Boolean">1</showDuration>
+      <showElapsedTime type="Boolean">1</showElapsedTime>
+      <timeDisplayFont>Arial</timeDisplayFont>
+      <timeDisplayFontColor type="Number">0x000000</timeDisplayFontColor>
+      <okLabel>OK</okLabel>
+      <localSecurityWarningTitle>Important</localSecurityWarningTitle>
+      <localSecurityWarning>This action is not allowed by the default Flash Player security settings when the content is played from a hard drive or CD.  Once the content is moved to a web server, it should function as expected, and you should not see this message.
+
+For other distribution methods, or to understand how the Flash Player security settings affect this content, please see the &quot;Flash Player Security&quot; topic in the Camtasia Studio help file.
+
+
+
+ </localSecurityWarning>
+      <includeScoreInEmail type="Boolean">0</includeScoreInEmail>
+      <rememberQuizAnswers type="Number">0</rememberQuizAnswers>
+      <endAction>Stop</endAction>
+      <endActionParam></endActionParam>
+      <controlsWidth type="Number">800</controlsWidth>
+      <controlsHeight type="Number">600</controlsHeight>
+      <volume type="Number">100</volume>
+      <hasCaptions type="Boolean">0</hasCaptions>
+      <captionsVisible type="Boolean">0</captionsVisible>
+      <caption>         
+         <font>
+            <type type="String">Microsoft Sans Serif</type>
+            <size type="Number">23</size>
+            <weight type="Boolean">0</weight>
+            <color type="Number">0xFFFFFF</color>
+            <cpl type="Number">32</cpl>
+         </font>
+         <panel>
+            <background>
+               <color type="Number">0x000000</color>
+               <alpha type="Number">50</alpha>
+            </background>
+            <animation>
+               <speed type="Number">40</speed>
+            </animation>
+         </panel>
+      </caption>
+      <video1>
+         <width type="Number">800</width>
+         <height type="Number">600</height>
+      </video1>
+      <pip>
+         <width type="Number">224</width>
+         <height type="Number">168</height>
+      </pip>
+      <toc>
+         <x type="Number">0</x>
+         <y type="Number">0</y>
+         <width type="Number">224</width>
+         <height type="Number">600</height>
+         <!-- AlternatingRowColors takes precedence over BackgroundColor and RowDepthColors takes precedence over both AlternatingRowColors and BackgroundColor -->
+         <backgroundColor type="Number"></backgroundColor>
+         <!-- accepts a hex value -->
+         <alternatingRowColors>
+            <!-- row alternate color based on the array of color values (row 1 = the value of the first color, row 2 = the value of the second color, row 3 equals the value of the first color, etc. -->
+            <array>
+               <!-- accepts two or more hex colors ( add additional Colors tags if more are needed ) -->
+               <colors type="Number"></colors>
+               <colors type="Number"></colors>
+            </array>
+         </alternatingRowColors>
+         <rowDepthColors>
+            <!-- color is based on the rows depth in the tree hierarchy -->
+            <array>
+               <!-- accepts two or more hex colors colors in the form of 0xFFFFFF ( add additional Colors tags if more are needed ) -->
+               <colors type="Number"></colors>
+               <!-- accepts a hex value -->
+               <colors type="Number"></colors>
+               <!-- accepts a hex value -->
+            </array>
+         </rowDepthColors>
+         <rowRollOverColor type="Number">0xA4A4A4</rowRollOverColor>
+         <!-- color of the row on mouse roll over - ignored if UseRollOver is false -->
+         <rowSelectedColor type="Number">0xC0C0C0</rowSelectedColor>
+         <!-- color of the row when it is the currently active row -->
+         <rowIndentation>10</rowIndentation>
+         <!-- number of pixels each row of a tree is indented -->
+         <borderStyle>solid</borderStyle>
+         <!-- none, inset, outset, solid -->
+         <textColor type="Number">0x000000</textColor>
+         <!-- the font color of tree items -->
+         <fontFamily>_sans</fontFamily>
+         <!-- the name of the font to be used, i.e. Arial, Times New Roman, HelveticaNeueLT Std  -->
+         <fontSize type="Number">12</fontSize>
+         <fontWeight>none</fontWeight>
+         <!-- none, bold -->
+         <textAlign>left</textAlign>
+         <!-- left, right, center -->
+         <textDecoration>none</textDecoration>
+         <!-- none, underline -->
+         <textIndent type="Number">0</textIndent>
+         <textRollOverColor type="Number">0x000000</textRollOverColor>
+         <!-- color of text on mouse roll over - ignored if UseRollOver is false -->
+         <textSelectedColor type="Number">0x000000</textSelectedColor>
+         <!-- color of text when row is selected -->
+         <useRollOver type="Boolean">0</useRollOver>
+         <!-- Use boolean numerical equivalents( 0 = false, 1 = true ) if set to false the rollover colors for the text and row are ignored -->
+         <collapsible type="Boolean">0</collapsible>
+         <!-- if false, the collapsible nature of the tree is disabled -->
+         <expanded type="Boolean">1</expanded>
+      </toc>
+      <quiz>
+         <disableFeedback type="Boolean">0</disableFeedback>
+         <txtQuestionOf>Question @ of @</txtQuestionOf>
+         <txtPrev>Prev</txtPrev>
+         <txtSubmit>Submit</txtSubmit>
+         <txtNext>Next</txtNext>
+         <txtDone>Done</txtDone>
+         <txtPreview>Preview</txtPreview>
+         <txtSend>Send</txtSend>
+         <txtMainMessage>You have reached the end of the questions and this video. Your answers are ready to be sent.</txtMainMessage>
+         <txtEmailContents>E-mail Contents</txtEmailContents>
+         <txtEmailTo>E-mail to </txtEmailTo>
+         <txtAnswersSent>Your answers have been sent.</txtAnswersSent>
+         <txtsummary>You have completed @ of @ questions.</txtsummary>
+         <txtScore>Score = @/@</txtScore>
+         <txtSummaryTitle>Answers Summary</txtSummaryTitle>
+      </quiz>
+   </config>
+   <playlist>
+      <array>
+         <fileset>
+            <video1>
+               <duration type="Number">17.27</duration>
+               <uri>lesson05-0.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">17.27</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-0_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">41.03</duration>
+               <uri>lesson05-1.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">41.03</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-1_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">48.90</duration>
+               <uri>lesson05-2.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">48.90</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-2_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">92.20</duration>
+               <uri>lesson05-3.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">92.20</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-3_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">57.13</duration>
+               <uri>lesson05-4.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">57.13</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-4_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">55.40</duration>
+               <uri>lesson05-5.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">55.40</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-5_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">107.63</duration>
+               <uri>lesson05-6.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">107.63</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-6_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">122.97</duration>
+               <uri>lesson05-7.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">122.97</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-7_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">103.53</duration>
+               <uri>lesson05-8.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">103.53</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-8_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">46.80</duration>
+               <uri>lesson05-9.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">46.80</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-9_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">41.40</duration>
+               <uri>lesson05-10.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">41.40</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-10_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">132.50</duration>
+               <uri>lesson05-11.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">132.50</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-11_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">19.53</duration>
+               <uri>lesson05-12.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">19.53</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-12_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">17.40</duration>
+               <uri>lesson05-13.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">17.40</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-13_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">17.83</duration>
+               <uri>lesson05-14.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">17.83</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-14_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">28.33</duration>
+               <uri>lesson05-15.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">28.33</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-15_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">42.43</duration>
+               <uri>lesson05-16.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">42.43</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-16_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">25.10</duration>
+               <uri>lesson05-17.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">25.10</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-17_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">23.33</duration>
+               <uri>lesson05-18.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">23.33</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-18_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">38.50</duration>
+               <uri>lesson05-19.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">38.50</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-19_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">46.73</duration>
+               <uri>lesson05-20.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">46.73</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-20_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">20.73</duration>
+               <uri>lesson05-21.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">20.73</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-21_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">30.37</duration>
+               <uri>lesson05-22.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">30.37</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-22_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">50.57</duration>
+               <uri>lesson05-23.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">50.57</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-23_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">23.10</duration>
+               <uri>lesson05-24.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">23.10</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-24_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">25.30</duration>
+               <uri>lesson05-25.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">25.30</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-25_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">21.33</duration>
+               <uri>lesson05-26.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">21.33</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-26_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">22.60</duration>
+               <uri>lesson05-27.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">22.60</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-27_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">14.77</duration>
+               <uri>lesson05-28.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">14.77</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-28_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">14.03</duration>
+               <uri>lesson05-29.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">14.03</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-29_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">69.23</duration>
+               <uri>lesson05-30.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">69.23</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-30_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">65.53</duration>
+               <uri>lesson05-31.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">65.53</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-31_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">41.30</duration>
+               <uri>lesson05-32.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">41.30</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-32_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">37.87</duration>
+               <uri>lesson05-33.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">37.87</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-33_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">26.90</duration>
+               <uri>lesson05-34.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">26.90</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-34_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">15.57</duration>
+               <uri>lesson05-35.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">15.57</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-35_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">74.73</duration>
+               <uri>lesson05-36.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">74.73</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-36_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">17.80</duration>
+               <uri>lesson05-37.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">17.80</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-37_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">300.00</duration>
+               <uri>lesson05-38.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">300.00</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-38_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">232.50</duration>
+               <uri>lesson05-39.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">232.50</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-39_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+         <fileset>
+            <video1>
+               <duration type="Number">64.87</duration>
+               <uri>lesson05-40.mp4</uri>
+               <frameRate type="Number">5</frameRate>
+               <keyframeRate type="Number">0</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">64.87</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>lesson05-40_PIP.mp4</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+      </array>
+
+   </playlist>   
+   <tocInfo>
+            <node label="Introduction" fileset="0" time="0.000" />
+      <node label="Lesson Objectives" fileset="1" time="0.000" />
+      <node label="Introduction to TQL" fileset="2" time="0.000" />
+      <node label="TQL-Based Subsystems" fileset="3" time="0.000" />
+      <node label="TQL Query Process" fileset="4" time="0.000" />
+      <node label="Building a TQL Query" fileset="5" time="0.000" />
+      <node label="Constraint Types" fileset="6" time="0.000" />
+      <node label="Attribute Constraints" fileset="7" time="0.000" />
+      <node label="Relationship Contraints" fileset="8" time="0.000" />
+      <node label="TQL Usage Across the Modling Managers" fileset="9" time="0.000" />
+      <node label="New TQL Overview" fileset="10" time="0.000" />
+      <node label="Creating a New TQL" fileset="11" time="0.000" />
+      <node label="Nodes and Relationships Overview" fileset="12" time="0.000" />
+      <node label="Adding Nodes to a TQL" fileset="13" time="0.000" />
+      <node label="Defining Relationships Between Nodes" fileset="14" time="0.000" />
+      <node label="Basic Query: all Unix hosts" fileset="15" time="0.000" />
+      <node label="Unix hosts with Apache" fileset="16" time="0.000" />
+      <node label="Unix host resources" fileset="17" time="0.000" />
+      <node label="Attribute Conditions Review" fileset="18" time="0.000" />
+      <node label="TQL Node Properties Dialog" fileset="19" time="0.000" />
+      <node label="TQL Node Attributes Conditions" fileset="20" time="0.000" />
+      <node label="Adding Attribute Conditions" fileset="21" time="0.000" />
+      <node label="Fixed Value Parameterized Conditions" fileset="22" time="0.000" />
+      <node label="Example - Windows 2003 Servers" fileset="23" time="0.000" />
+      <node label="Example - Unix Host with OS other than Linux" fileset="24" time="0.000" />
+      <node label="Identity / Element ID Conditions Overview" fileset="25" time="0.000" />
+      <node label="Defining an Identity (Select Identities)" fileset="26" time="0.000" />
+      <node label="All Hosts on the 10.168.11.0 Subnet" fileset="27" time="0.000" />
+      <node label="Cardinality Conditions Review" fileset="28" time="0.000" />
+      <node label="Defining Relationship Cardinality" fileset="29" time="0.000" />
+      <node label="Adding Relationship Cardinality" fileset="30" time="0.000" />
+      <node label="Unix Hosts and their CPUs" fileset="31" time="0.000" />
+      <node label="Unix Hosts with CPUs" fileset="32" time="0.000" />
+      <node label="Unix Hosts with 2 or more CPUs" fileset="33" time="0.000" />
+      <node label="Include Subtypes Property Overview" fileset="34" time="0.000" />
+      <node label="Editing Include Subtypes Properties" fileset="35" time="0.000" />
+      <node label="Using Include Subtype Properties" fileset="36" time="0.000" />
+      <node label="TQL Creation Demo" fileset="37" time="0.000" />
+      <node label="Demo" fileset="38" time="0.000" />
+      <node label="5 min" fileset="39" time="0.000" />
+      <node label="Summary" fileset="40" time="0.000" />
+
+   </tocInfo>
+</main>

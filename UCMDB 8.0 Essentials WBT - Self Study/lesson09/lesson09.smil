@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "http://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="http://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="800" height="600"  background-color="black" />
+<region id="Videos" left="0" top="0" width="800" height="600" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="lesson09-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="lesson09-1.mp4" qt:chapter="Lesson Objectives"  region="Videos" />
+        <video src="lesson09-2.mp4" qt:chapter="Topology View Application Overview"  region="Videos" />
+        <video src="lesson09-3.mp4" qt:chapter="Topology View Application"  region="Videos" />
+        <video src="lesson09-4.mp4" qt:chapter="Correlation Overview"  region="Videos" />
+        <video src="lesson09-5.mp4" qt:chapter="Status vs. State"  region="Videos" />
+        <video src="lesson09-6.mp4" qt:chapter="Event"  region="Videos" />
+        <video src="lesson09-7.mp4" qt:chapter="Trigger and Affect Nodes"  region="Videos" />
+        <video src="lesson09-8.mp4" qt:chapter="Running Correlations Overview"  region="Videos" />
+        <video src="lesson09-9.mp4" qt:chapter="Trigger Severity"  region="Videos" />
+        <video src="lesson09-10.mp4" qt:chapter="Selecting a Correlation View"  region="Videos" />
+        <video src="lesson09-11.mp4" qt:chapter="Running the Correlation"  region="Videos" />
+        <video src="lesson09-12.mp4" qt:chapter="Viewing and Clearing Correlation Results"  region="Videos" />
+        <video src="lesson09-13.mp4" qt:chapter="Example: Show in View IP Down"  region="Videos" />
+        <video src="lesson09-14.mp4" qt:chapter="Example: Show Map IP Down"  region="Videos" />
+        <video src="lesson09-15.mp4" qt:chapter="Example: Generate IP Down Report"  region="Videos" />
+        <video src="lesson09-16.mp4" qt:chapter="Analyzing Change: Impact Analysis"  region="Videos" />
+        <video src="lesson09-17.mp4" qt:chapter="Running Show Impact"  region="Videos" />
+        <video src="lesson09-18.mp4" qt:chapter="Analyzing Change: Root Cause"  region="Videos" />
+        <video src="lesson09-19.mp4" qt:chapter="Running Root Cause"  region="Videos" />
+        <video src="lesson09-20.mp4" qt:chapter="Summary"  region="Videos" />
+     </seq>
+  </body>
+</smil>
