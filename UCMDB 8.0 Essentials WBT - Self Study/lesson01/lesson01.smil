@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.0//EN" "http://www.w3.org/2001/SMIL20/SMIL20.dtd">
+<smil xmlns:qt="http://www.apple.com/quicktime/resources/smilextensions" qt:time-slider="true" qt:autoplay="true" qt:immediate-instantiation="false" qt:chapter-mode="all">
+ <head>
+  <layout>
+<root-layout width="800" height="600"  background-color="black" />
+<region id="Videos" left="0" top="0" width="800" height="600" background-color="black" fit="fill"  />
+  </layout>
+ </head>
+  <body>
+     <seq>
+        <video src="lesson01-0.mp4" qt:chapter="Introduction"  region="Videos" />
+        <video src="lesson01-1.mp4" qt:chapter="Agenda"  region="Videos" />
+        <video src="lesson01-2.mp4" qt:chapter="Configuration Management System"  region="Videos" />
+        <video src="lesson01-3.mp4" qt:chapter="Section Objectives"  region="Videos" />
+        <video src="lesson01-4.mp4" qt:chapter="CMDB Evolution"  region="Videos" />
+        <video src="lesson01-5.mp4" qt:chapter="CMDB 3.0"  region="Videos" />
+        <video src="lesson01-6.mp4" qt:chapter="Configuring Management System"  region="Videos" />
+        <video src="lesson01-7.mp4" qt:chapter="CMS Assets"  region="Videos" />
+        <video src="lesson01-8.mp4" qt:chapter="Configuration Item (CI)"  region="Videos" />
+        <video src="lesson01-9.mp4" qt:chapter="CI, Attribute, and Relationship Example"  region="Videos" />
+        <video src="lesson01-10.mp4" qt:chapter="CMDB CI Types"  region="Videos" />
+        <video src="lesson01-11.mp4" qt:chapter="Federation in the CMS"  region="Videos" />
+        <video src="lesson01-12.mp4" qt:chapter="HP UCMDB 8.0"  region="Videos" />
+        <video src="lesson01-13.mp4" qt:chapter="Section Objectives"  region="Videos" />
+        <video src="lesson01-14.mp4" qt:chapter="Demo"  region="Videos" />
+        <video src="lesson01-15.mp4" qt:chapter="5 min"  region="Videos" />
+        <video src="lesson01-16.mp4" qt:chapter="10 min"  region="Videos" />
+     </seq>
+  </body>
+</smil>
